@@ -6,6 +6,9 @@ Estudiante | Código
 --- | --- | ---
 Bryan Estiben Pérez Parra| 12203030
 
+0. VErifique que la interfaz puente de su maquina esté arriba. De lo contrario, use
+### ifup ethx, "x" cambia segun sea su caso
+
 1. Inicie Sesión con su usuario y contraseña preferido
 
 2. Se sugiere que vaya a la carpeta /home y ahí creé un directorio y pongale nombre. En este tutorial asumiremos que
