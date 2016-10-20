@@ -2,6 +2,10 @@
 
 Tutorial de Ejecución
 
+Estudiante | Código
+--- | --- | ---
+Bryan Estiben Pérez Parra| 12203030
+
 1. Inicie Sesión con su usuario y contraseña preferido
 
 2. Se sugiere que vaya a la carpeta /home y ahí creé un directorio cuyo nombre sea de su
