@@ -11,7 +11,7 @@ Bryan Estiben Pérez Parra| 12203030
 2. Se sugiere que vaya a la carpeta /home y ahí creé un directorio y pongale nombre. En este tutorial asumiremos que
 el directorio se llamó "miDirectorio"
 
-# mkdir miDirectorio
+## mkdir miDirectorio
 
 3. Ubiquese dentro del directorio recien creado y haga la clonación de este repositorio, de la
     siguiente manera:
@@ -48,16 +48,16 @@ Ahora dentro de la carpeta "miDirectorio" deberían estár 3 archivos importante
     recomiendo verificar que dicho puerto esté disponible y activo.
     
 8.1 Para verificar que esté activo ejecute los siguientes comandos:
-# cd /etc/sysconfig
-# nano iptables
+## cd /etc/sysconfig
+## nano iptables
 Dentro del archivo "iptables" verificar que el puerto esté disponible para recibir las peticiones necesarias. En caso
 contrario, configurarlo escribiendo la siguiente linea de codigo: 
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 8088 -j ACCEPT
 
 En caso de que el puerto esté ocupado y por ende toque cambiarlo, se procede a modificar su numero en el archivo
-    URI.py y activarlo en el archivo iptables.
+    URI.py y activarlo en el archivo iptables. Recuerde reiniciar el archivo con "service iptables restart", en caso de cambios
 
 9. Con el ambiente virtual activado, procedemos a ejecutar los siguientes comando:
 #python URI.py
 
-El servicio a esta alturas ya debería estár en la nube.\\
+El servicio a esta alturas ya debería estár en la nube.
