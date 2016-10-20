@@ -61,3 +61,8 @@ En caso de que el puerto esté ocupado y por ende toque cambiarlo, se procede a 
 #python URI.py
 
 El servicio a esta alturas ya debería estár en la nube.
+
+10. Para saber que servicios provee los algoritmos confirgurados y como solicitarlos desde la extension Postman de google, se recomienda
+    ver el archivo "ContratoServicios.png"
+    
+11. Abra la extension Postman de Google Chrome y comience a jugar con los diferentes servicios.
